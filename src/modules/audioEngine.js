@@ -184,6 +184,11 @@ class AudioEngine {
     }
   }
 
+  // Alias for celebration sounds on success/login
+  playCelebrationSound() {
+    this.playSuccessChime();
+  }
+
   // Gentle Caution Chime (for Blind 'Yes' or Misconceptions)
   playCautionChime() {
     try {
